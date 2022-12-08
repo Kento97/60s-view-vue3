@@ -2,7 +2,7 @@
 
 > 每天 60 秒看世界，你是懂世界的。
 
-在线地址：https://60s-view.netlify.app
+在线地址：https://60s-view-vue3.vercel.app/
 
 ## 功能
 
