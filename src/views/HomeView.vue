@@ -10,7 +10,7 @@ export interface TheResponse {
   data: string[]
 }
 const newsList: Ref<string[]> = ref([])
-const url = '/api'
+const url = import.meta.env.VITE_APP_BASEURL
 onMounted(() => {
   fetch(url)
     .then((data) => {
