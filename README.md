@@ -1,40 +1,24 @@
-# vue-project
+# 60s-view
 
-This template should help get you started developing with Vue 3 in Vite.
+> 每天 60 秒看世界，你是懂世界的。
 
-## Recommended IDE Setup
+在线地址：https://60s-view.netlify.app
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 功能
 
-## Type Support for `.vue` Imports in TS
+- 从 “每天60s读懂世界” 专栏的接口获取每天最新数据
+- 图片可下载保存（PC 端和移动端均可，手机端需要在浏览器中打开然后保存图片）
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## 技术栈
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- Vue3
+- TypeScript
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 开发
 
-## Customize configuration
+- 前端：`npm run dev`
+- 后端：参考：[[60s-api](https://github.com/Hacker-C/60s)](https://dash.deno.com/projects/kento97-news)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 致谢
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+- 数据和灵感来源于： [vikiboss/60s](https://github.com/vikiboss/60s)
